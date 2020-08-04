@@ -1,13 +1,20 @@
-import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
+/* eslint-disable react/react-in-jsx-scope */
 
-export default class extends React.Component {
+import { Component } from 'react';
+import DemosHome from '../src/components/DemosHome';
+import Footer from '../src/components/Footer';
+import Navbar from '../src/components/Navbar';
+
+class index extends Component {
   render() {
     return (
-      <section>
+      <div>
         <Navbar></Navbar>
+        <DemosHome></DemosHome>
         <Footer></Footer>
-      </section>
+      </div>
     );
   }
 }
+
+export default index;
