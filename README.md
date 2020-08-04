@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Digevo-Demos
-Página Web de demostración para los Demos de la empresa Digevo
-=======
 # Digevo Demos
 
 Página web para presentar los Demos realizados de Digevo.
@@ -17,4 +13,3 @@ App realizada en React usando el framework Next JS
 ## Licencia
 
 ISC
->>>>>>> c9c3d5718101499dafad33189af79b7cfff3f978
